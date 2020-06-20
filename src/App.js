@@ -5,10 +5,12 @@ import Message from './components/Message'
 class App extends Component {
 
     render() {
-        return (<div>
-            <Form></Form>
-            <Message></Message>
-        </div>);
+        return (
+            <div className="container">
+                <Form></Form>
+                <Message></Message>
+            </div>
+        );
     }
 }
 
